@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>生小猪猪</title>
+		<link rel="stylesheet" href="css/mui.min.css" />
+		<link rel="stylesheet" href="css/app.css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="modul/layer/layer.js"></script>
+		<script type="text/javascript" src="js/mui.js"></script>
+		<script type="text/javascript" src="js/GivePig.js"></script>
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<div class="mui-content-padded">
+
+				<!--开始界面-->
+				<div class="startBox">
+					<div class="bg"><img src="img/bg.jpg"></div>
+					<ol class="ft14">
+						<li>每啪一下等于生一头小猪，使劲啪啪啪就对了。</li>
+						<li>在规定时间内生完规定的小猪。</li>
+						<li>
+							五秒啪啪啪道具说明：<br /> (1)菜鸡啪啪啪：5秒内获得双倍啪的速度；
+							<br /> (2)蘑菇变身术：5秒内获得三倍啪的速度；
+							<br /> (3)萌宝卖萌术：5秒内获得五倍啪的速度；
+						</li>
+					</ol>
+					<button type="button" class="mui-btn mui-btn-primary mui-btn-block start">开始游戏</button>
+				</div>
+
+				<!--游戏界面-->
+				<div class="gameBox mui-hidden">
+					<label>第 <label id="Jpass"></label> 关（<label id="Jtime"></label>秒内生完<label id="Jnum"></label>头小猪）</label>
+					<div class="progress" id="progress"><p class="mui-progressbar mui-progressbar-in" data-progress=""><span></span></p>
+					<div class="userJtpa"><img src="img/pig.jpg" class="fl" ><label class="fl">x</label><span class="fr"></span></div>
+					
+					<div class="gbot">
+						<div class='Jpatxt'></div>
+						<div class="user ft14 userName"></div>
+						<div class="mode mode1 mui-hidden">
+							<button class='mui-btn  mui-btn-primary Jpa'>啪</button>
+						</div>
+						<div class="mode mode2 mui-hidden">
+							<button class='mui-btn  mui-btn-primary Jpa fl'>啪</button>
+							<button class='mui-btn  mui-btn-primary Jpa fr'>啪</button>
+						</div>
+						<div class="mui-clearfix"></div>
+					</div>
+					
+					<div class="tool">
+						<ul class="mui-table-view mui-grid-view mui-grid-9">
+							<li class="mui-table-view-cell mui-media mui-col-xs-4">
+								<a href="#">
+									<span class="mui-icon mui-icon-qq"><span class="mui-badge">0</span></span>
+									<div class="mui-media-body">菜鸡啪啪啪</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4">
+								<a href="#">
+									<span class="mui-icon mui-icon-weixin"><span class="mui-badge">0</span></span>
+									<div class="mui-media-body">蘑菇变身术</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4">
+								<a href="#">
+									<span class="mui-icon mui-icon-weibo"><span class="mui-badge">0</span></span>
+									<div class="mui-media-body">萌宝卖萌术</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</body>
+
+</html>

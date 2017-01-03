@@ -1,0 +1,203 @@
+/*
+ *自定义css
+ *
+ * 
+ * */
+
+*:after,
+*:before {
+	-webkit-transform-origin: 0 0;
+}
+
+html,
+body {
+	font-family: "PingFang SC", sans-serif !important;
+	-webkit-text-size-adjust: 100%;
+	color: #333333 !important;
+	min-height: 100%;
+}
+
+.mui-popup {
+	top: 45% !important;
+}
+
+.mui-popup-button:active {
+	background-color: #DDDDDD !important;
+}
+
+.ft8 {
+	font-size: 8px !important;
+}
+
+.ft10 {
+	font-size: 10px !important;
+}
+
+.ft12 {
+	font-size: 12px !important;
+}
+
+.ft14 {
+	font-size: 14px !important;
+}
+
+.ft16 {
+	font-size: 16px !important;
+}
+
+.ft18 {
+	font-size: 18px !important;
+}
+
+.ft20 {
+	font-size: 20px !important;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.mui-grid-view.mui-grid-9 .mui-media .mui-icon {
+	font-size: 1.8em !important;
+}
+
+.startBox .bg img {
+	width: 100%;
+}
+
+.startBox .start {
+	margin-top: 20px;
+}
+
+.srsel {
+	font-size: 14px;
+	padding: 15px 84px !important;
+}
+
+.gameBox .progress {
+	margin: 10px 0;
+}
+
+.gameBox .userJtpa {
+	font-size: 5em;
+	text-align: center;
+	margin: 1em 0 0 0;
+	height: 60px;
+	line-height: 60px;
+}
+
+.userJtpa img {
+	width: 62px;
+	display: block;
+	margin-left: 30px;
+}
+
+.userJtpa label {
+	display: block;
+	margin-left: 36px;
+}
+
+.userJtpa span {
+	width: 128px;
+	display: block;
+	transition: All 0.4s ease-in-out;
+	-webkit-transition: All 0.4s ease-in-out;
+	-moz-transition: All 0.4s ease-in-out;
+	-o-transition: All 0.4s ease-in-out;
+}
+
+.userJtpa span.cur {
+	color: #007AFF;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transition: All 0.4s ease-in-out;
+	-webkit-transition: All 0.4s ease-in-out;
+	-moz-transition: All 0.4s ease-in-out;
+	-o-transition: All 0.4s ease-in-out;
+}
+
+.gameBox .userName {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.gbot {
+	width: 100%;
+	position: fixed;
+	bottom: 80px;
+	left: 0;
+}
+
+
+/*啪*/
+
+.mode2 {
+	margin: 0 10px;
+}
+
+.mode1 .Jpa {
+	width: 140px;
+	height: 140px;
+	text-align: center;
+	font-size: 26px;
+	color: #fff;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.mode2 .Jpa {
+	width: 140px;
+	height: 140px;
+	text-align: center;
+	font-size: 26px;
+	color: #fff;
+	border-radius: 50%;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.Jpatxt {
+	height: 1em;
+	text-align: center;
+	color: #0062cc;
+	margin: 50px 0 10px 0;
+}
+
+.tool {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.tool ul {
+	background-color: #f0ad4e !important;
+	border-left: 1px solid #f0ad4e !important;
+}
+
+.tool li {
+	padding: 0 !important;
+	border-right: 1px solid #f0ad4e !important;
+	border-bottom: 0 !important;
+}
+
+.tool li.mui-active {
+	background-color: #ec971f !important;
+}
+
+.tool li span {
+	color: #fff;
+}
+
+.tool li .mui-media-body {
+	color: #fff !important;
+}
